@@ -204,9 +204,9 @@ async def delete_post(post_id: int, db: Session = Depends(get_db), current_user:
     return {"detail": "Post deleted"}
 
 
-@app.get("/logout/")
-async def logout():
-    return {"detail": "Logout successful"}
+# @app.get("/logout/")
+# async def logout():
+#     return {"detail": "Logout successful"}
 
 
 # pwd = get_password_hash("aidar123")
